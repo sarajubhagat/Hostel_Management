@@ -1,0 +1,1068 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body id="body" ng-controller="MainCtrl">
+    
+
+ 
+    <div class="wrapper">
+        <div class="l-navbar" id="navbar">
+            <nav class="nav">
+                <div>
+                    <ul class="nav-list">
+                        <a href="#" class="nav-link active1">
+                            <img src="images/clipboard-text.svg" alt="">
+                            <span class="nav-text">Application Form</span>
+                        </a>
+    
+                        <a href="#" class="nav-link ">
+                            <img src="images/empty-wallet.svg" alt="">
+                            <span class="nav-text">Fee Payment</span>
+                        </a>
+    
+                        <a href="#" class="nav-link ">
+                            <img src="images/megaphone.svg" alt="">
+                            <span class="nav-text"> Applied for promotion</span>
+                        </a>
+    
+                        <a href="#" class="nav-link ">
+                            <img src="images/Exit.svg" alt="">
+                            <span class="nav-text">Leave Application</span>
+                        </a>
+    
+                        <a href="#" class="nav-link ">
+                            <img src="images/Bus.svg" alt="">
+                            <span class="nav-text">Vehicle Details</span>
+                        </a>
+    
+                        <a href="#" class="nav-link ">
+                            <img src="images/calendar-tick.svg" alt="">
+                            <span class="nav-text">Puja Attendance</span>
+                        </a>
+                        <a href="#" class="nav-link ">
+                            <img src="images/Frame.svg" alt="">
+                            <span class="nav-text">Aarti Attendance</span>
+                        </a>
+                        <a href="#" class="nav-link ">
+                            <img src="images/Chef Hat Heart.svg" alt="">
+                            <span class="nav-text">Mess Report</span>
+                        </a>
+                        <a href="#" class="nav-link ">
+                            <img src="images/Washing Machine Minimalistic.svg" alt="">
+                            <span class="nav-text">Laundry Report</span>
+                        </a>
+                        <a href="#" class="nav-link ">
+                            <img src="images/Buildings 3.svg" alt="">
+                            <span class="nav-text">Hostel Maintenance</span>
+                        </a>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        
+        <header class=" sticky-top">
+            <div class="header-cont">
+                <a href="#" class="nav-logo">
+                    <img src="images/logo.jpeg" alt="logo" class="nav-logo-icon">
+                    <span class="nav-logo-text">Shantigram Gurukul</span>
+                </a>
+                <div class="nav-toggle" id="nav-toggle">
+                    <i class="far fa-bars"></i>
+                </div>
+                    <div class="right-cont">
+                        <div class="dropdown">
+                            <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="far fa-list"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Notification</a></li>
+                              <li><a class="dropdown-item" href="#">User Detail</a></li>
+                            </ul>
+                        </div>
+                        <div class="inn-detail dropdown ">
+                            <a href="#" class="user-pro  link-dark text-decoration-none " data-bs-toggle="dropdown" aria-expanded="false">
+                              <img src="images/avatar-1 1.svg" alt="mdo"  >
+                              <div class="d-block"><h6>Charlie Dorwart </h6>
+                                <p>Student</p></div>
+                              
+                            </a>
+                            <ul class="dropdown-menu text-small">
+                              <li><a class="dropdown-item" href="#">New project...</a></li>
+                              <li><a class="dropdown-item" href="#">Settings</a></li>
+                              <li><a class="dropdown-item" href="#">Profile</a></li>
+                              <li><a class="dropdown-item" href="#">Sign out</a></li>
+                            </ul>
+                          </div>
+                    </div>
+            </div>
+        </header>
+        <div class="content-wrap">
+              <main class="form-bg" style="background-image: url(images/LooperBG.svg);">
+                <div class="container-wide">
+                    <div class="row  ">
+                        <div class="col ">
+                            <div class=" student-detail">
+                                
+                                <div class="progress-container">
+                                    <div class="progress" id="progress"></div>
+                                    <div class="text-wrap active">
+                                        <div class="circle"></div>
+                                        <p class="text">Student Personal details</p>
+                                    </div>
+                                    <div class="text-wrap">
+                                        <div class="circle"></div>
+                                        <p class="text">Student Family details</p>
+                                    </div>
+                                    <div class="text-wrap">
+                                        <div class="circle"></div>
+                                        <p class="text">HSC/SSC School Details</p>
+                                    </div>
+                                    <div class="text-wrap">
+                                        <div class="circle"></div>
+                                        <p class="text">College Details</p>
+                                    </div>
+                                    <div class="text-wrap">
+                                        <div class="circle"></div>
+                                        <p class="text">Attached Document</p>
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="personal-detail">
+                                <div class="title-cont">
+                                    <img src="images/clipboard-text1.svg" alt="">
+                                    <h4>Student Personal details</h4>
+                                </div>
+                                <div class="ps-detail mt-2">
+                                    <h4>Personal details</h4>
+                                    <form action="" class="row">
+                                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                                            <label for="fname">First name</label>
+                                            <input type="text" id="fname" class="form-control" placeholder="Enter First Name">
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                                            <label for="mname">Middle Name</label>
+                                            <input type="text" id="mname" class="form-control" placeholder="Enter Middle Name">
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                                            <label for="lname">Last name</label>
+                                            <input type="text" id="lname" class="form-control" placeholder="Enter Last Name">
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                                            <label for="dob" >Date of Birth</label>
+                                            <input type="date" id="dob" class="form-control" >
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                                            <label for="adharnum">Aadhar card Number</label>
+                                            <input type="text" id="adharnum" class="form-control" placeholder="Enter Aadhar card Number">
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                                            <label for="dob" >Nationality</label>
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected disabled>Select Nationality</option>
+                                                <option value="1">Indian</option>
+                                                <option value="2">Ahemdabad</option>
+                                                <option value="3">Gandhinagar</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                                            <label for="adharnum">Religion</label>
+                                            <input type="text" id="adharnum" class="form-control" placeholder="Enter Religion">
+                                        </div>
+                                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
+                                            <label for="mailid">Email id</label>
+                                            <input type="text" id="mailid" class="form-control" placeholder="Enter First Name">
+                                        </div>
+                                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
+                                            <label for="smnum">Student Mobile Number</label>
+                                            <input type="text" id="smnum" class="form-control" placeholder="Enter student Mobile Number">
+                                        </div>
+                                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label for="whnum">WhatsApp Number (same as mobile)</label>
+                                            </div>
+                                            <input type="text" id="whnum" class="form-control" placeholder="Enter WhatsApp Number">
+                                        </div>
+                                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
+                                            <label for="cast">Cast</label>
+                                            <input type="text" id="cast" class="form-control" placeholder="Enter cast">
+                                        </div>
+                                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
+                                            <label for="subcast">Sub- cast</label>
+                                            <input type="text" id="subcast" class="form-control" placeholder="Enter sub- cast">
+                                        </div>
+                                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
+                                            <label for="lname">Cast-category</label>
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected disabled>Select cast-category</option>
+                                                <option value="1">Indian</option>
+                                                <option value="2">Ahemdabad</option>
+                                                <option value="3">Gandhinagar</option>
+                                            </select>
+                                        </div>
+                                        <h4 class="">Living Address</h4>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                                            <label for="subcast">Current Address</label>
+                                            <input type="text" id="subcast" class="form-control" placeholder="Enter House no./street Name/Near Location">
+                                        </div>
+                                        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-12">
+                                            <label for="subcast">State</label>
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected disabled>Select State</option>
+                                                <option value="1">Indian</option>
+                                                <option value="2">Ahemdabad</option>
+                                                <option value="3">Gandhinagar</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-12">
+                                            <label for="lname">District</label>
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected disabled>Select District</option>
+                                                <option value="1">Indian</option>
+                                                <option value="2">Ahemdabad</option>
+                                                <option value="3">Gandhinagar</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
+                                            <label for="lname">Taluka</label>
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected disabled>Select Taluka</option>
+                                                <option value="1">Indian</option>
+                                                <option value="2">Ahemdabad</option>
+                                                <option value="3">Gandhinagar</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12 ">
+                                            <div class="dropdown" id="search_vendor">
+                                                    <label for="Village2">Village</label>
+                                                    <input class="form-select dropdown-search"   name="Village2"  placeholder="Search...">
+                                                    <ul class="dropdown-list">
+                                                        <li class="not-found" style="display: none;">Results Not Found!</li>
+                                                        <li data-id="1">Surat</li>
+                                                        <li data-id="2">Ahemdabad</li>
+                                                        <li data-id="3">Vapi</li>
+                                                        <li data-id="4">Valsad</li>
+                                                        <li data-id="5">Dang</li>
+                                                        <li data-id="6">Amreli</li>
+                                                      </ul>
+                                                </div>
+                                            <!-- <div class="dropdown">
+                                                <label for="Village">Village</label>
+                                            <input type="text" id="Village" class="form-select dropdown-input" placeholder="Search...">
+                                            <div class="dropdown-list ">
+                                                <div class="category">Gorakhpur</div>
+                                                
+                                                    <div class="category">Valsad</div>
+                                                    <div class="category">Navsari</div>
+                                                    <div class="category">Vapi</div>
+                                                    <div class="category">Dang</div>
+                                                    <div class="category">Ahemdabad</div>
+                                                </div>
+                                            </div> -->
+                                        </div>
+                                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
+                                            <label for="lname">Pin/zip</label>
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected disabled>Select Pin/zip</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-12 ">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <h4 class="">Native Address <span>(same as living)</span></h4>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                                            <label for="subcast">Native Address</label>
+                                            <input type="text" id="subcast" class="form-control" placeholder="Enter House no./street Name/Near Location">
+                                        </div>
+                                        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-12">
+                                            <label for="subcast">State</label>
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected disabled>Select State</option>
+                                                <option value="1">Indian</option>
+                                                <option value="2">Ahemdabad</option>
+                                                <option value="3">Gandhinagar</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-12">
+                                            <label for="lname">District</label>
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected disabled>Select District</option>
+                                                <option value="1">Indian</option>
+                                                <option value="2">Ahemdabad</option>
+                                                <option value="3">Gandhinagar</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
+                                            <label for="lname">Taluka</label>
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected disabled>Select Taluka</option>
+                                                <option value="1">Indian</option>
+                                                <option value="2">Ahemdabad</option>
+                                                <option value="3">Gandhinagar</option>
+                                            </select>
+                                        </div>
+                                        
+                                            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
+                                                <div class="dropdown" id="search_customer">
+                                                    <label for="Village2">Village</label>
+                                                    <input class="form-select dropdown-search"   name="Village2"  placeholder="Search...">
+                                                    <ul class="dropdown-list">
+                                                        <li class="not-found" style="display: none;">Results Not Found!</li>
+                                                        <li data-id="1">Surat</li>
+                                                        <li data-id="2">Ahemdabad</li>
+                                                        <li data-id="3">Vapi</li>
+                                                        <li data-id="4">Valsad</li>
+                                                        <li data-id="5">Dang</li>
+                                                        <li data-id="6">Amreli</li>
+                                                      </ul>
+                                                </div>
+                                            </div>
+                                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12">
+                                            <label for="lname">Pin/zip</label>
+                                            <select  class="form-select" aria-label="Default select example">
+                                                <option selected disabled>Select Pin/zip</option>
+                                                <option value="1">Indian</option>
+                                                <option value="2">Ahemdabad</option>
+                                                <option value="3">Gandhinagar</option>
+                                            </select>
+                                        </div>
+                                        <h4 class="">About Gurukul</h4>
+                                        <div class="col-12 ">
+                                            <h6>Are You Gurukul Student?</h6>
+                                            <div class="radio-cont">
+                                                <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                                    <label class="form-check-label" for="flexRadioDefault1">Yes</label>
+                                                </div>
+                                                <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                                                    <label class="form-check-label" for="flexRadioDefault2">No</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                            <div class="sd-multiSelect form-group">
+                                              <label for="current-job-role">Branch</label>
+                                              <select  multiple data-multi-select-plugin>
+                                                <option value="Branch 1" selected >Branch 1</option>
+                                                <option value="Branch 2" >Branch 2</option>
+                                                <option value="Branch 3">Branch 3</option>
+                                                <option value="Branch 4">Branch 4</option>
+                                                <option value="Branch 5">Branch 5</option>
+                                                <option value="Branch 6">Branch 6</option>
+                                               <option value="Branch 7">Branch 7</option>
+                                            </select>
+                                            </div>
+                                          </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                                            <label for="subcast">Any Health issues</label>
+                                            <input type="text" id="subcast" class="form-control" placeholder="Enter Any Health issues">
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                                            <label for="subcast">Any special (Skill/Art/Achievements)</label>
+                                            <input type="text" id="subcast" class="form-control" placeholder="Enter Any special (Skill/Art/Achievements)">
+                                        </div>
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                            <label for="psgoal">Personal goal of life</label>
+                                            <textarea class="form-control" name="" id="psgoal" rows="3" placeholder="Enter Personal goal of life"></textarea>
+                                        </div>
+                                        <div class="bottom-btn">
+                                            <div class="left-cont">
+                                                <a href="#" class="btn btn-primary back" role="button" id="back"><i class="far fa-chevron-left"></i>Back</a>
+                                            </div>
+                                            <div class="right-cont">
+                                                <a href="parentsdetail.html" class="btn btn-primary " id="next" >Save</a>
+                                                <a href="parentsdetail.html" class="btn btn-primary bg-red" role="button" >Save & Next</a>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+              </main>
+        </div>
+        
+      </div>
+    
+    
+
+
+
+
+
+
+      <script src="./js/script.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://bsite.net/savrajdutta/cdn/multi-select.js"></script>
+    <script src="https://bbbootstrap.com/snippets/multiselect-dropdown-list-83601849"></script>
+
+
+
+
+
+<!-- ------------------SIDBAR----------------- -->
+
+
+<script type="text/javascript">
+  const showMenu = (toggleId, navbarId, bodyId) => {
+    const toggle = document.getElementById(toggleId);
+    const navbar = document.getElementById(navbarId);
+    const bodypadding = document.getElementById(bodyId);
+
+    if(toggle && navbar) {
+        toggle.addEventListener('click', () => {
+            navbar.classList.toggle('show');
+            toggle.classList.toggle('rotate');
+            bodypadding.classList.toggle('expander');
+        })
+    }
+}
+
+showMenu('nav-toggle', 'navbar', 'body');
+
+// Active Link Color
+
+const linkColor = document.querySelectorAll('.nav-link');
+
+function colorLink() {
+    linkColor.forEach(l => l.classList.remove('active'))
+    this.classList.add('active');
+}
+
+linkColor.forEach(l => l.addEventListener('click', colorLink));
+</script>
+
+
+<!-- .................MULTI SELECT WITH SEARCH................................... -->
+
+<script type="text/javascript">
+
+  // Initialize function, create initial tokens with itens that are already selected by the user
+function init(element) {
+    // Create div that wroaps all the elements inside (select, elements selected, search div) to put select inside
+    const wrapper = document.createElement("div");
+    wrapper.addEventListener("click", clickOnWrapper);
+    wrapper.classList.add("multi-select-component");
+
+    // Create elements of search
+    const search_div = document.createElement("div");
+    search_div.classList.add("search-container");
+    const input = document.createElement("input");
+    input.classList.add("selected-input");
+    input.setAttribute("autocomplete", "off");
+    input.setAttribute("tabindex", "0");
+    input.addEventListener("keyup", inputChange);
+    input.addEventListener("keydown", deletePressed);
+    input.addEventListener("click", openOptions);
+
+    const dropdown_icon = document.createElement("a");
+    dropdown_icon.setAttribute("href", "#");
+    dropdown_icon.classList.add("dropdown-icon");
+
+    dropdown_icon.addEventListener("click", clickDropdown);
+    const autocomplete_list = document.createElement("ul");
+    autocomplete_list.classList.add("autocomplete-list")
+    search_div.appendChild(input);
+    search_div.appendChild(autocomplete_list);
+    search_div.appendChild(dropdown_icon);
+
+    // set the wrapper as child (instead of the element)
+    element.parentNode.replaceChild(wrapper, element);
+    // set element as child of wrapper
+    wrapper.appendChild(element);
+    wrapper.appendChild(search_div);
+
+    createInitialTokens(element);
+    addPlaceholder(wrapper);
+}
+
+function removePlaceholder(wrapper) {
+    const input_search = wrapper.querySelector(".selected-input");
+    input_search.removeAttribute("placeholder");
+}
+
+function addPlaceholder(wrapper) {
+    const input_search = wrapper.querySelector(".selected-input");
+    const tokens = wrapper.querySelectorAll(".selected-wrapper");
+    if (!tokens.length && !(document.activeElement === input_search))
+        input_search.setAttribute("placeholder", "---------");
+}
+
+
+// Function that create the initial set of tokens with the options selected by the users
+function createInitialTokens(select) {
+    let {
+        options_selected
+    } = getOptions(select);
+    const wrapper = select.parentNode;
+    for (let i = 0; i < options_selected.length; i++) {
+        createToken(wrapper, options_selected[i]);
+    }
+}
+
+
+// Listener of user search
+function inputChange(e) {
+    const wrapper = e.target.parentNode.parentNode;
+    const select = wrapper.querySelector("select");
+    const dropdown = wrapper.querySelector(".dropdown-icon");
+
+    const input_val = e.target.value;
+
+    if (input_val) {
+        dropdown.classList.add("active");
+        populateAutocompleteList(select, input_val.trim());
+    } else {
+        dropdown.classList.remove("active");
+        const event = new Event('click');
+        dropdown.dispatchEvent(event);
+    }
+}
+
+
+// Listen for clicks on the wrapper, if click happens focus on the input
+function clickOnWrapper(e) {
+    const wrapper = e.target;
+    if (wrapper.tagName == "DIV") {
+        const input_search = wrapper.querySelector(".selected-input");
+        const dropdown = wrapper.querySelector(".dropdown-icon");
+        if (!dropdown.classList.contains("active")) {
+            const event = new Event('click');
+            dropdown.dispatchEvent(event);
+        }
+        input_search.focus();
+        removePlaceholder(wrapper);
+    }
+
+}
+
+function openOptions(e) {
+    const input_search = e.target;
+    const wrapper = input_search.parentElement.parentElement;
+    const dropdown = wrapper.querySelector(".dropdown-icon");
+    if (!dropdown.classList.contains("active")) {
+        const event = new Event('click');
+        dropdown.dispatchEvent(event);
+    }
+    e.stopPropagation();
+
+}
+
+// Function that create a token inside of a wrapper with the given value
+function createToken(wrapper, value) {
+    const search = wrapper.querySelector(".search-container");
+    // Create token wrapper
+    const token = document.createElement("div");
+    token.classList.add("selected-wrapper");
+    const token_span = document.createElement("span");
+    token_span.classList.add("selected-label");
+    token_span.innerText = value;
+    const close = document.createElement("a");
+    close.classList.add("selected-close");
+    close.setAttribute("tabindex", "-1");
+    close.setAttribute("data-option", value);
+    close.setAttribute("data-hits", 0);
+    close.setAttribute("href", "#");
+    close.innerText = "x";
+    close.addEventListener("click", removeToken)
+    token.appendChild(token_span);
+    token.appendChild(close);
+    wrapper.insertBefore(token, search);
+}
+
+
+// Listen for clicks in the dropdown option
+function clickDropdown(e) {
+
+    const dropdown = e.target;
+    const wrapper = dropdown.parentNode.parentNode;
+    const input_search = wrapper.querySelector(".selected-input");
+    const select = wrapper.querySelector("select");
+    dropdown.classList.toggle("active");
+
+    if (dropdown.classList.contains("active")) {
+        removePlaceholder(wrapper);
+        input_search.focus();
+
+        if (!input_search.value) {
+            populateAutocompleteList(select, "", true);
+        } else {
+            populateAutocompleteList(select, input_search.value);
+
+        }
+    } else {
+        clearAutocompleteList(select);
+        addPlaceholder(wrapper);
+    }
+}
+
+
+// Clears the results of the autocomplete list
+function clearAutocompleteList(select) {
+    const wrapper = select.parentNode;
+
+    const autocomplete_list = wrapper.querySelector(".autocomplete-list");
+    autocomplete_list.innerHTML = "";
+}
+
+// Populate the autocomplete list following a given query from the user
+function populateAutocompleteList(select, query, dropdown = false) {
+    const {
+        autocomplete_options
+    } = getOptions(select);
+
+
+    let options_to_show;
+
+    if (dropdown)
+        options_to_show = autocomplete_options;
+    else
+        options_to_show = autocomplete(query, autocomplete_options);
+
+    const wrapper = select.parentNode;
+    const input_search = wrapper.querySelector(".search-container");
+    const autocomplete_list = wrapper.querySelector(".autocomplete-list");
+    autocomplete_list.innerHTML = "";
+    const result_size = options_to_show.length;
+
+    if (result_size == 1) {
+
+        const li = document.createElement("li");
+        li.innerText = options_to_show[0];
+        li.setAttribute('data-value', options_to_show[0]);
+        li.addEventListener("click", selectOption);
+        autocomplete_list.appendChild(li);
+        if (query.length == options_to_show[0].length) {
+            const event = new Event('click');
+            li.dispatchEvent(event);
+
+        }
+    } else if (result_size > 1) {
+
+        for (let i = 0; i < result_size; i++) {
+            const li = document.createElement("li");
+            li.innerText = options_to_show[i];
+            li.setAttribute('data-value', options_to_show[i]);
+            li.addEventListener("click", selectOption);
+            autocomplete_list.appendChild(li);
+        }
+    } else {
+        const li = document.createElement("li");
+        li.classList.add("not-cursor");
+        li.innerText = "No options found";
+        autocomplete_list.appendChild(li);
+    }
+}
+
+
+// Listener to autocomplete results when clicked set the selected property in the select option 
+function selectOption(e) {
+    const wrapper = e.target.parentNode.parentNode.parentNode;
+    const input_search = wrapper.querySelector(".selected-input");
+    const option = wrapper.querySelector(`select option[value="${e.target.dataset.value}"]`);
+
+    option.setAttribute("selected", "");
+    createToken(wrapper, e.target.dataset.value);
+    if (input_search.value) {
+        input_search.value = "";
+    }
+
+    input_search.focus();
+
+    e.target.remove();
+    const autocomplete_list = wrapper.querySelector(".autocomplete-list");
+
+
+    if (!autocomplete_list.children.length) {
+        const li = document.createElement("li");
+        li.classList.add("not-cursor");
+        li.innerText = "No options found";
+        autocomplete_list.appendChild(li);
+    }
+
+    const event = new Event('keyup');
+    input_search.dispatchEvent(event);
+    e.stopPropagation();
+}
+
+
+// function that returns a list with the autcomplete list of matches
+function autocomplete(query, options) {
+    // No query passed, just return entire list
+    if (!query) {
+        return options;
+    }
+    let options_return = [];
+
+    for (let i = 0; i < options.length; i++) {
+        if (query.toLowerCase() === options[i].slice(0, query.length).toLowerCase()) {
+            options_return.push(options[i]);
+        }
+    }
+    return options_return;
+}
+
+
+// Returns the options that are selected by the user and the ones that are not
+function getOptions(select) {
+    // Select all the options available
+    const all_options = Array.from(
+        select.querySelectorAll("option")
+    ).map(el => el.value);
+
+    // Get the options that are selected from the user
+    const options_selected = Array.from(
+        select.querySelectorAll("option:checked")
+    ).map(el => el.value);
+
+    // Create an autocomplete options array with the options that are not selected by the user
+    const autocomplete_options = [];
+    all_options.forEach(option => {
+        if (!options_selected.includes(option)) {
+            autocomplete_options.push(option);
+        }
+    });
+
+    autocomplete_options.sort();
+
+    return {
+        options_selected,
+        autocomplete_options
+    };
+
+}
+
+// Listener for when the user wants to remove a given token.
+function removeToken(e) {
+    // Get the value to remove
+    const value_to_remove = e.target.dataset.option;
+    const wrapper = e.target.parentNode.parentNode;
+    const input_search = wrapper.querySelector(".selected-input");
+    const dropdown = wrapper.querySelector(".dropdown-icon");
+    // Get the options in the select to be unselected
+    const option_to_unselect = wrapper.querySelector(`select option[value="${value_to_remove}"]`);
+    option_to_unselect.removeAttribute("selected");
+    // Remove token attribute
+    e.target.parentNode.remove();
+    input_search.focus();
+    dropdown.classList.remove("active");
+    const event = new Event('click');
+    dropdown.dispatchEvent(event);
+    e.stopPropagation();
+}
+
+// Listen for 2 sequence of hits on the delete key, if this happens delete the last token if exist
+function deletePressed(e) {
+    const wrapper = e.target.parentNode.parentNode;
+    const input_search = e.target;
+    const key = e.keyCode || e.charCode;
+    const tokens = wrapper.querySelectorAll(".selected-wrapper");
+
+    if (tokens.length) {
+        const last_token_x = tokens[tokens.length - 1].querySelector("a");
+        let hits = +last_token_x.dataset.hits;
+
+        if (key == 8 || key == 46) {
+            if (!input_search.value) {
+
+                if (hits > 1) {
+                    // Trigger delete event
+                    const event = new Event('click');
+                    last_token_x.dispatchEvent(event);
+                } else {
+                    last_token_x.dataset.hits = 2;
+                }
+            }
+        } else {
+            last_token_x.dataset.hits = 0;
+        }
+    }
+    return true;
+}
+
+// You can call this function if you want to add new options to the select plugin
+// Target needs to be a unique identifier from the select you want to append new option for example #multi-select-plugin
+// Example of usage addOption("#multi-select-plugin", "tesla", "Tesla")
+function addOption(target, val, text) {
+    const select = document.querySelector(target);
+    let opt = document.createElement('option');
+    opt.value = val;
+    opt.innerHTML = text;
+    select.appendChild(opt);
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    // get select that has the options available
+    const select = document.querySelectorAll("[data-multi-select-plugin]");
+    select.forEach(select => {
+
+        init(select);
+    });
+
+    // Dismiss on outside click
+    document.addEventListener('click', () => {
+        // get select that has the options available
+        const select = document.querySelectorAll("[data-multi-select-plugin]");
+        for (let i = 0; i < select.length; i++) {
+            if (event) {
+                var isClickInside = select[i].parentElement.parentElement.contains(event.target);
+
+                if (!isClickInside) {
+                    const wrapper = select[i].parentElement.parentElement;
+                    const dropdown = wrapper.querySelector(".dropdown-icon");
+                    const autocomplete_list = wrapper.querySelector(".autocomplete-list");
+                    //the click was outside the specifiedElement, do something
+                    dropdown.classList.remove("active");
+                    autocomplete_list.innerHTML = "";
+                    addPlaceholder(wrapper);
+                }
+            }
+        }
+    });
+
+});
+
+</script>
+
+
+<!-- ............Searchable Dropdoen.......... -->
+
+<!-- <script>
+    $(document).ready(function () {
+  const input = $(".dropdown-input");
+  const list = $(".dropdown-list");
+  const categories = $(".category");
+  const categoryItems = $(".category-items");
+  const items = $(".dropdown-item");
+
+  input.on("focus", function (e) {
+    $(e.currentTarget).siblings(".dropdown-list").css("display", "block");
+    console.log($(e.currentTarget).siblings(".dropdown-list"));
+  });
+
+  input.on("input", function () {
+    const searchText = input.val().toLowerCase();
+
+    categories.each(function (index) {
+      const categoryItemsList = categoryItems.eq(index);
+      const categoryText = $(this).text().toLowerCase();
+      let categoryVisible = false;
+
+      const itemsToShow = [];
+
+      categoryItemsList.find(".dropdown-item").each(function () {
+        const itemText = $(this).text().toLowerCase();
+        if (itemText.includes(searchText)) {
+          $(this).css("display", "block");
+          itemsToShow.push($(this));
+          categoryVisible = true;
+        } else {
+          $(this).css("display", "none");
+        }
+      });
+
+      if (categoryText.includes(searchText) || categoryVisible) {
+        categoryItemsList.css("display", "block");
+        $(this).css("display", "block");
+
+        if (categoryText.includes(searchText)) {
+          categoryItemsList.find(".dropdown-item").css("display", "block");
+        } else if (itemsToShow.length > 0) {
+          itemsToShow.forEach(function (item) {
+            item.css("display", "block");
+          });
+        }
+      } else {
+        categoryItemsList.css("display", "none");
+        $(this).css("display", "none");
+      }
+    });
+
+    list.css(
+      "display",
+      categories.toArray().some(function (category) {
+        return $(category).css("display") === "block";
+      })
+        ? "block"
+        : "none"
+    );
+  });
+
+  categories.on("click", function (event) {
+    const index = categories.index(this);
+    const categoryItemsList = categoryItems.eq(index);
+    if (categoryItemsList.css("display") === "none") {
+      categoryItemsList.css("display", "block");
+    } else {
+      categoryItemsList.css("display", "none");
+    }
+    event.stopPropagation();
+  });
+
+  items.on("click", function () {
+    input.val($(this).text());
+    list.css("display", "none");
+  });
+
+  $(document).on("click", function (event) {
+    if (!input.is(event.target) && input.has(event.target).length === 0) {
+      list.css("display", "none");
+    }
+  });
+});
+
+</script> -->
+
+
+<script>
+    $(document).ready(function () {
+
+function initializeDropdown(dropdown) {
+  var searchInput = dropdown.find(".dropdown-search");
+  var dropdownList = dropdown.find(".dropdown-list");
+  var listItems = dropdownList.find("li:not(.not-found)");
+
+  searchInput.on("input", function () {
+    var filter = $(this).val().toLowerCase();
+    var matchCount = filterResults(listItems, filter);
+    toggleDropdownList($(this), filter, matchCount);
+  });
+
+  searchInput.on("focus", function () {
+    var filter = $(this).val().toLowerCase();
+    var matchCount = countMatches(listItems, filter);
+    toggleDropdownList($(this), filter, matchCount);
+  });
+
+  searchInput.on("blur", function () {
+    var inputText = $(this).val().toLowerCase();
+    var itemExists = false;
+
+    listItems.each(function () {
+      if ($(this).text().toLowerCase() === inputText) {
+        itemExists = true;
+        return false;
+      }
+    });
+
+    if (!itemExists) {
+      $(this).val("");
+      filterResults(listItems, "");
+      toggleDropdownList($(this), "", 0);
+    }
+  });
+
+  dropdownList.on("mousedown", "li:not(.not-found)", function () {
+    var selectedItem = $(this).text();
+    var selectedItemId = $(this).data("id");
+    searchInput.val(selectedItem);
+    dropdownList.hide();
+    handleItemSelected(selectedItem, selectedItemId);
+  });
+
+  searchInput.on("keydown", function (event) {
+    if (event.key === "Enter") {
+      event.preventDefault();
+      var firstVisibleItem = dropdownList.find("li:not(.not-found):visible").first();
+      if (firstVisibleItem.length) {
+        var selectedItem = firstVisibleItem.text();
+        var selectedItemId = firstVisibleItem.data("id");
+        searchInput.val(selectedItem);
+        dropdownList.hide();
+        handleItemSelected(selectedItem, selectedItemId);
+      }
+    }
+  });
+
+  searchInput.on("keyup", function (event) {
+    if (event.key === "Escape") {
+      searchInput.val("");
+      filterResults(listItems, "");
+      toggleDropdownList(searchInput, "", 0);
+    }
+  });
+
+  function filterResults(listItems, filter) {
+    var limit = 10;
+
+    var matchCount = 0;
+    listItems.each(function () {
+      var match = $(this).text().toLowerCase().indexOf(filter) > -1;
+      $(this).toggle(match);
+      if (match) {
+        matchCount++;
+        if (matchCount > limit) {
+          $(this).hide();
+          matchCount--;
+        }
+      }
+    });
+    return matchCount;
+  }
+
+
+  function countMatches(listItems, filter) {
+    var matchCount = 0;
+    listItems.each(function () {
+      if ($(this).text().toLowerCase().indexOf(filter) > -1) matchCount++;
+    });
+    return matchCount;
+  }
+
+  function toggleDropdownList(inputElement, filter, matchCount) {
+    var notFoundItem = dropdownList.find(".not-found");
+
+    if (filter.length > 0 && matchCount > 0) {
+      dropdownList.show();
+      notFoundItem.hide();
+    } else if (filter.length > 0 && matchCount === 0) {
+      dropdownList.show();
+      notFoundItem.show();
+    } else {
+      dropdownList.hide();
+    }
+  }
+}
+
+function handleItemSelected(item, itemId) {
+  console.log("Item selected:", item, "with ID:", itemId);
+  // Do something with the selected item and its ID
+}
+
+initializeDropdown($("#search_vendor"));
+initializeDropdown($("#search_customer"));
+
+});
+</script>
+
+
+</body>
+</html>
